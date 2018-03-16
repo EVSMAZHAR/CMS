@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.body-section{
+    padding-bottom: 70px;
+}
+
+.list-group{
+   padding-top: 40px;
+    margin-bottom: 70px;
+}
+.panel{
+   margin: 10px;;
+}
+
+.huge{
+    font-size: 40px;
+}
+col-xs-3  .fa-comments{
+width: 100%;
+    color: green;
+}
+.tage-boxes .panel-primary{
+    border: 1px solid blue;
+}
+.panel-red{
+    color: white;
+    background: #d9534f;
+}
+.panel-red a{
+   
+    background: #d9534f;
+}
+.panel-red a:hover{
+   
+    background: #b52b27;
+}
+
+.panel-yellow{
+    color: white;
+    background: #f0ad4e;
+}
+.panel-red a{
+   
+    background:#f0ad4e;
+}
+.panel-red a:hover{
+   
+    background: #df8a13;
+}
+
+.panel-green{
+    color: white;
+    background: #5bc85c;
+}
+.panel-green a{
+   
+    background:#5bc85c;
+}
+.panel-green a:hover{
+   
+    background: #3d8b3d;
+}
+footer{
+    color: white;
+    background:blue;
+    height: 50px;
+    line-height: 50px;
+   
+    bottom: 0px;
+    margin-bottom: -250px;
+    width: 100%;
+}
+footer a{
+    color: white;
+    font-weight: 200;
+    
+}
+footer a:hover{
+    color: white;
+    font-weight: 200;
+    
+}
+
+.categories-detail{
+    width: 100%;
+}

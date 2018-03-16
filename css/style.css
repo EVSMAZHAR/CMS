@@ -1,0 +1,216 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #EEEDED; 
+}
+.navbar-brand img{
+    margin-top: -5px;
+}
+.navbar-brand *{
+color: white;
+}
+.jumbotron {
+    height: 300px;
+    overflow: hidden;
+}
+.jumbotron #details{
+    position: absolute;
+}
+
+.jumbotron img{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+navber {
+    color: white;
+}
+.Populars{
+    background: white;
+    padding: 15px;
+    align-content: center;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3
+}
+.populars ul li{
+    list-style: none;
+}
+.Populars img{
+    width: 100%;
+    margin-top: 12px;
+}
+section .widgets{
+ margin-bottom: 20px;
+}
+footer{
+color: white;
+    background: black;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+html {
+  margin: 40px auto;
+}
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
+.Post{
+    background: white;
+    border: 1px solid #E3E3E3;
+    margin: 15px 0px;
+}
+.Post .Post-date{
+    padding: 15px;
+    text-align: center;
+      
+}
+.Post .Post-date .day{
+    font-size: 30px;
+    color:aqua;
+}
+.Post .Post-date .Month{
+ font-size: 12px;
+    font-weight: 100;
+}
+.Post .Post-date .day{
+ font-size: 12px;
+   
+}
+
+.Post .Post-title{
+    padding: 20px;
+    border-left: 1px solid #E3E3E3;
+}
+.Post .Profile_Picture{
+    padding: 20px;
+   
+}
+.Post .Profile_Picture > img{
+   
+    width: 100%;
+}
+.Post > img{
+width: 100%;
+    margin-top: 0px
+}
+.Post .desc{
+    font-family:arial;
+    font-weight: 100;
+    padding: 15px;
+}
+.Post > a.btn{
+   
+    margin-left: 10px;
+}
+
+.Post .first
+{
+    margin-right: 20px;
+}
+.Post .sec
+{
+    margin-right: 20px;
+}
+nav#paginationid{
+   text-align: center;
+   
+}
+
+.contact-form{
+    background:white;
+    padding: 25px;
+}
+.contact-form > h2{
+  color: deepskyblue;
+}
+.contact-form  textarea{
+resize: none;
+}
+
+.related-posts{
+background: white;
+    padding: 20px;
+  
+    
+    
+}
+.related-posts img{
+       width: 100%;
+      
+    
+}
+.related-posts h3 {
+   color: dodgerblue;
+}
+.author{
+background: white;
+    padding: 20px;
+    border: green;
+    margin-top: 5px;
+}
+.author h3{
+color: deepskyblue;
+}
+     
+.author img{
+   width: 100%;
+}
+.comments {
+    background: white;
+   padding: 20px;
+    margin-top: 5px;
+   
+}
+.comments img{
+width: 100%;
+    
+}
+
+.comments h3{
+font-size: 30px;
+    align-content: center;
+    padding-left: 100px;
+    margin-top: 5px;
+    
+}
+.comment-box{
+margin: 5px 0px 10px 0px;
+    margin: 
+}
+
+
+ 
+    
+@media (max-width:768px)
+{
+    body{
+        background: red;
+    }
+    .jumbotron  #details{
+        margin-top: :20px;
+        text-decoration-color: brown;
+        text-align: center;
+    }
+    .Post .post-title{
+        margin-top: -30px;
+    }
+    .pagination >li > a{
+     font-size: 12px;
+       
+    }
+    footer {
+font-size: 9px;
+        letter-spacing: 0px;
+    }
+}
